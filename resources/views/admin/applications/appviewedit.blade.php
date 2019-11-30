@@ -74,8 +74,8 @@
                 </div>
 
                 <div class="form-group row">
-                  <div class="offset-sm-2 col-sm-10">
-                    <button type="submit" class="btn btn-danger">Submit</button>
+                  <div class="offset-sm-2 col-sm-2">
+                    <button type="submit" class="btn btn-block btn-outline-success">Submit</button>
                   </div>
                 </div>
                 
@@ -148,6 +148,13 @@
                   </div>
                 </div>
 
+
+                <div class="form-group row">
+                  <div class="col-sm-2">
+                    <button type="submit" class="btn btn-block btn-outline-danger">Remove</button>
+                  </div>
+                </div>
+
             </div>
         </div>
         
@@ -213,12 +220,51 @@
                   </div>
                 </div>
 
+                <div class="form-group row">
+                  <div class="col-sm-2">
+                    <button type="submit" class="btn btn-block btn-outline-danger">Remove</button>
+                  </div>
+                </div>
+
             </div>
         </div>
         
     </div>
 
 </div>
+<div class="card">
+    <div class="card-header">Review</div>
+    <div class="card-body">
+    <div class="row">
 
+        <div class="offset-sm-1 col-sm-2" align="center">
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-block btn-outline-success">Approve</button>
+              </div>
+            </div>
+            
+        </div>
+
+        <div class="offset-sm-2 col-sm-2" align="center">
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-block btn-outline-danger">Decline</button>
+              </div>
+            </div>
+            
+        </div>
+
+        <div class="offset-sm-2 col-sm-2" align="center">
+            <div class="form-group row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-block btn-outline-primary">Withdraw</button>
+              </div>
+            </div>
+            
+        
+    </div>
+</div>
+</div>
 
 @endsection
