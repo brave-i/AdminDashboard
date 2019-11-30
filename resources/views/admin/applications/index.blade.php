@@ -2,8 +2,8 @@
 @section('subcontent')
 
 <div style="margin-bottom: 10px;" class="row">
-    <div class="col-lg-12">
-        <a class="btn btn-success" href="{{ route("admin.applications.create") . "?status=" .$status }}">
+    <div class="col-lg-12" align="right">
+        <a class="btn btn-outline-success" href="{{ route("admin.applications.create") . "?status=" .$status }}">
             Add Application
         </a>
     </div>

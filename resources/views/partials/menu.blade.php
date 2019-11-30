@@ -84,7 +84,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route("admin.applications.index") }}?status=created" class="nav-link">
+                    <a href="{{ route("admin.applications.index") }}?status=created" class="nav-link {{ request()->is('admin/applications') || request()->is('admin/applications/*') ? 'active' : '' }}">
                         <p>
                             <i class="fas fa-address-book" aria-hidden="true"></i>
 
